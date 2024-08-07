@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const MainNav = () => {
     return(
-        <Button variant="ghost" className="font-bold hove:text-purple-500 hover:bg-white">
+        <Button variant="ghost" className="font-bold hove:text-red-500 hover:bg-white">
             Log In
         </Button>
     );
