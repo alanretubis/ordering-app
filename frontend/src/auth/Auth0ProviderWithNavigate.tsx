@@ -20,14 +20,14 @@ const Auth0ProviderWithNavigate = ({children} : Props) => {
 
   return (
     <Auth0Provider
-    domain={domain}
-    clientId={clientId}
-    authorizationParams={{
-      redirect_uri: redirectUri
-    }}
+      domain={domain}
+      clientId={clientId}
+      authorizationParams={{
+        redirect_uri: redirectUri
+      }}
 
-    onRedirectCallback={onRedirectCallback}
-  >
+      onRedirectCallback={onRedirectCallback}
+    >
     {children}
   </Auth0Provider>
   )
